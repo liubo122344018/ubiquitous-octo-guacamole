@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import IndexHeader from '../src/components/IndexHeader/index.tsx';
+import LeftMenu from '../src/components/LeftMenu/index.tsx';
+import  '../src/assets/static/iconfont.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+   <IndexHeader />
   </React.StrictMode>
 );
 
