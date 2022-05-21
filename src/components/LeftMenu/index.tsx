@@ -1,8 +1,9 @@
 import React, { useRef, useEffect } from 'react'
+import './index.scss'
 function leftMenu(){
     return(
-        <div>
-            leftMenu
+        <div className='menu-content'>
+            
         </div>
     )
 }

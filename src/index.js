@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.scss';
 import reportWebVitals from './reportWebVitals';
 import IndexHeader from '../src/components/IndexHeader/index.tsx';
 import LeftMenu from '../src/components/LeftMenu/index.tsx';
@@ -9,7 +9,13 @@ import  '../src/assets/static/iconfont.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <IndexHeader />
+    <div className='app-content'>
+    <LeftMenu />
+    <div className='content-bar'>
+      <IndexHeader />
+    </div>
+   </div>
+
   </React.StrictMode>
 );
 
